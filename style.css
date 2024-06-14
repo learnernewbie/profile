@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0);
+    align-items: center;
+    padding:  10px 10px;
+}
+
+.logo  {
+    cursor: pointer;
+    /* to move the logo to the left side */
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.nav-links {
+    list-style: none;
+    /* display: flex; */
+    
+}
+
+
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+    /* height: 20px; */
+    
+}
+
+.nav-links a {
+background-color: rgba(0, 0, 0, 0.26);
+    transition: all 0.3s ease 0s;
+    background:transparent;
+}
+
+.nav-links a:hover {
+    background-color: #ffa200;
+    color: #240046;
+    transform: scale(1.1);
+    /* transition: all 0.3s ease 0s; */
+
+}
+
+button {
+    border: none;
+    border-radius: 50px;
+    background-color: #ff7b00;
+    padding:9px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+
+button:hover {
+    background-color: #ffa200;
+    color: #240046;
+    transform: scale(1.1);
+}
+
+a.logo {
+    background-color: transparent;
+    color: #ff7b00;
+    font-size: 5vmin;
+    margin-left: 2vmin;
+
+}
+
+a.logo:hover {
+    color: #fffb0a;
+    transition: all 0.6s ease-in-out 0;
+    transform: scale(1.05);
+}
